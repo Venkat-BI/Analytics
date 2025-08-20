@@ -1,109 +1,88 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   font-family: Arial, sans-serif;
-  margin: 0;
   line-height: 1.6;
-  background: #f9fbfd;
+  background: #f9f9f9;
   color: #333;
 }
 
-/* Navbar */
+/* Header */
 header {
-  background: #fff;
-  padding: 15px 20px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  position: sticky;
-  top: 0;
-}
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-nav ul li a {
-  text-decoration: none;
-  color: #333;
-}
-
-/* Hero */
-.hero {
-  background: linear-gradient(to right, #6a11cb, #2575fc);
+  background: linear-gradient(120deg, #0078d7, #00bfa6);
   color: white;
-  padding: 100px 20px;
   text-align: center;
+  padding: 100px 20px;
 }
-.hero h1 span {
-  color: #ffea00;
+header h1 {
+  font-size: 2.5rem;
+}
+header p {
+  margin: 15px 0;
+  font-size: 1.2rem;
 }
 .btn {
   display: inline-block;
-  margin-top: 15px;
-  background: #ffea00;
+  background: #ff9800;
+  color: white;
   padding: 10px 20px;
-  border-radius: 6px;
+  margin-top: 15px;
   text-decoration: none;
-  color: #333;
-  font-weight: bold;
+  border-radius: 5px;
 }
 
 /* Sections */
 section {
-  padding: 60px 20px;
+  padding: 50px 20px;
+}
+.container {
   max-width: 1000px;
   margin: auto;
 }
-.about, .projects, .contact {
-  text-align: center;
-}
 
 /* Projects */
-.project-list {
+.project-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
 }
 .project-card {
-  background: #fff;
+  background: white;
   padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.project-card h3 {
+  margin-bottom: 10px;
+}
+.project-card a {
+  color: #0078d7;
+  text-decoration: none;
+}
+
+/* Resume */
+#resume iframe {
+  margin-top: 20px;
+  border: 1px solid #ccc;
 }
 
 /* Contact */
-.contact-form {
-  max-width: 500px;
-  margin: 20px auto;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+#contact p {
+  margin: 10px 0;
 }
-.contact-form input,
-.contact-form textarea {
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-}
-.contact-form button {
-  background: #2575fc;
-  color: white;
-  border: none;
-  padding: 12px;
-  border-radius: 6px;
-  cursor: pointer;
-}
-.contact-form button:hover {
-  background: #1b5cd6;
+#contact a {
+  color: #0078d7;
+  text-decoration: none;
 }
 
 /* Footer */
 footer {
-  background: #333;
-  color: white;
   text-align: center;
   padding: 15px;
-  margin-top: 30px;
+  background: #222;
+  color: white;
 }
