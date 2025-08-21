@@ -5,71 +5,126 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Venkat Ramana | BI Developer Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-  <!-- Header -->
-  <header>
-    <div class="container">
-      <h1>Venkat Ramana</h1>
-      <p>Business Intelligence Developer | Power BI | SQL | Data Visualization</p>
-      <a href="#projects" class="btn">View My Work</a>
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="profile">
+      <img src="profile.jpg" alt="Venkat Ramana">
+      <h2>Venkat Ramana</h2>
+      <p>BI Developer</p>
     </div>
-  </header>
+    <nav class="nav-links">
+      <a href="#about"><i class="fas fa-user"></i> About</a>
+      <a href="#experience"><i class="fas fa-briefcase"></i> Experience</a>
+      <a href="#projects"><i class="fas fa-chart-line"></i> Projects</a>
+      <a href="#skills"><i class="fas fa-cogs"></i> Skills</a>
+      <a href="#education"><i class="fas fa-graduation-cap"></i> Education</a>
+      <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+      <a href="#resume"><i class="fas fa-file"></i> Resume</a>
+    </nav>
+  </aside>
 
-  <!-- About Section -->
-  <section id="about">
-    <div class="container">
-      <h2>About Me</h2>
-      <p>
-        I am a BI Developer with expertise in <b>Power BI, SQL, Data Modeling, 
-        and Business Analytics</b>. I help businesses transform raw data into 
-        meaningful insights using interactive dashboards and reports.
-      </p>
-    </div>
-  </section>
-
-  <!-- Projects Section -->
-  <section id="projects">
-    <div class="container">
-      <h2>Projects</h2>
-      <div class="project-grid">
-        <div class="project-card">
-          <h3>Sales Dashboard</h3>
-          <p>Interactive Power BI dashboard analyzing regional sales performance.</p>
-          <a href="https://app.powerbi.com/view?r=YOUR_LINK" target="_blank">View Report</a>
-        </div>
-        <div class="project-card">
-          <h3>Finance Analysis</h3>
-          <p>Financial KPI dashboard with drill-through insights.</p>
-          <a href="https://app.powerbi.com/view?r=YOUR_LINK" target="_blank">View Report</a>
+  <!-- Main Content -->
+  <main class="content">
+    <!-- Header Section -->
+    <header>
+      <div class="container">
+        <h1>Hi, I'm <span class="highlight">Venkat Ramana</span>.</h1>
+        <p>Business Intelligence Developer | Power BI | SQL | Data Visualization</p>
+        <div class="buttons">
+          <a href="#about" class="btn">Read More</a>
+          <a href="#contact" class="btn-outline">Contact Me</a>
         </div>
       </div>
-    </div>
-  </section>
+    </header>
 
-  <!-- Resume Section -->
-  <section id="resume">
-    <div class="container">
-      <h2>Resume</h2>
-      <p>You can view or download my resume below:</p>
-      <a href="Resume.pdf" download class="btn">📄 Download Resume</a>
-      <iframe src="Resume.pdf" width="100%" height="500px"></iframe>
-    </div>
-  </section>
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>
+          I am a BI Developer with expertise in <b>Power BI, SQL, Data Modeling, 
+          and Business Analytics</b>. I help businesses transform raw data into 
+          meaningful insights using interactive dashboards and reports.
+        </p>
+      </div>
+    </section>
 
-  <!-- Contact Section -->
-  <section id="contact">
-    <div class="container">
-      <h2>Contact Me</h2>
-      <p>Email: <a href="mailto:yourname@email.com">yourname@email.com</a></p>
-      <p>LinkedIn: <a href="https://linkedin.com/in/YOUR_LINK" target="_blank">My LinkedIn</a></p>
-      <p>GitHub: <a href="https://github.com/venkat-bi" target="_blank">github.com/venkat-bi</a></p>
-    </div>
-  </section>
+    <!-- Experience Section -->
+    <section id="experience">
+      <div class="container">
+        <h2>Experience</h2>
+        <p>Work experience details will go here.</p>
+      </div>
+    </section>
 
-  <!-- Footer -->
-  <footer>
-    <p>© 2025 Venkat Ramana. All Rights Reserved.</p>
-  </footer>
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="project-grid">
+          <div class="project-card">
+            <h3>Sales Dashboard</h3>
+            <p>Interactive Power BI dashboard analyzing regional sales performance.</p>
+            <a href="https://app.powerbi.com/view?r=YOUR_LINK" target="_blank">View Report</a>
+          </div>
+          <div class="project-card">
+            <h3>Finance Analysis</h3>
+            <p>Financial KPI dashboard with drill-through insights.</p>
+            <a href="https://app.powerbi.com/view?r=YOUR_LINK" target="_blank">View Report</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <div class="container">
+        <h2>Skills</h2>
+        <ul>
+          <li>Power BI</li>
+          <li>SQL</li>
+          <li>Data Modeling</li>
+          <li>ETL (Informatica)</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+      <div class="container">
+        <h2>Education</h2>
+        <p>Bachelor’s in [Your Degree] from [Your University].</p>
+      </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+      <div class="container">
+        <h2>Resume</h2>
+        <p>You can view or download my resume below:</p>
+        <a href="Resume.pdf" download class="btn">📄 Download Resume</a>
+        <iframe src="Resume.pdf" width="100%" height="500px"></iframe>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:yourname@email.com">yourname@email.com</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/YOUR_LINK" target="_blank">My LinkedIn</a></p>
+        <p>GitHub: <a href="https://github.com/venkat-bi" target="_blank">github.com/venkat-bi</a></p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2025 Venkat Ramana. All Rights Reserved.</p>
+    </footer>
+  </main>
 </body>
 </html>
