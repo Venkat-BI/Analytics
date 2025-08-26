@@ -193,3 +193,28 @@ html { scroll-behavior: smooth; }
   }
   .content { margin-left: 0; padding-top: 72px; }
 }
+
+/* Existing CSS … */
+
+/* === Add below this === */
+.project-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin: 20px auto;
+  max-width: 900px;
+}
+
+.iframe-wrapper {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.iframe-wrapper iframe {
+  width: 100%;
+  height: 500px;  /* adjust if needed */
+  border: none;
+}
+
